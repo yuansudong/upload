@@ -14,6 +14,13 @@ const (
 )
 
 const (
-	// ParseMultipartFormMemoryLimit 解析多类型表单
-	ParseMultipartFormMemoryLimit = 1 * MB
+	// MempoolSize 定义内存池的大小为4MB
+	MempoolSize = 8 * MB
+)
+
+const (
+	// EmptyString 空字符串
+	EmptyString = ""
+	// ErrNotFile 这个请求格式非文件
+	ErrNotFile = "The Style Isn't File"
 )
