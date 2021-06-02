@@ -23,4 +23,6 @@ const (
 	EmptyString = ""
 	// ErrNotFile 这个请求格式非文件
 	ErrNotFile = "The Style Isn't File"
+	// ErrRWNotEQ 读写的大小不一致.
+	ErrRWNotEQ = "ReadSize Isn't Equal WriteSize"
 )

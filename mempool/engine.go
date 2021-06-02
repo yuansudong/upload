@@ -22,7 +22,7 @@ func (e *Engine) _InitPool() *Engine {
 			return make([]byte, constant.MempoolSize)
 		},
 	}
-	return nil
+	return e
 }
 
 // GetBytes 从字节池中获得
